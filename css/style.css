@@ -161,3 +161,36 @@ nav #footer-links li {
 #copyright {
     margin-top: 10px;
 }
+
+/* desafio - trabalhar a responsividade desse projeto */
+
+/* Celular */
+@media (max-width: 450px) {
+    body {
+        background-color: #fff;
+    }
+    #banner-container {
+        display: none;
+    }
+    #main-container,
+    #form-box,
+    #register-container,
+    #get-app-container {
+        width: 100%;
+    }
+    footer {
+        width: 90%;
+    }
+    #footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 775px) {
+    #banner-container {
+        display: none;
+    }
+}
+/* Finalizado */
